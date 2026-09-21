@@ -1,0 +1,598 @@
+{
+  "updated_at": "2026-07-30T13:09:59.231458+00:00",
+  "count": 2,
+  "signals": [
+    {
+      "symbol": "BTC",
+      "primary_signal": "BUY",
+      "secondary_signal": "LONG",
+      "confidence": 12.532456648708163,
+      "technical_score": 0.23476487869372742,
+      "sentiment_score": -0.22,
+      "onchain_score": 0.13333333333333333,
+      "volume_score": 0.9999999997674418,
+      "macro_score": -0.7580644875054054,
+      "composite_score": 0.10076616937036129,
+      "entry_price": 64878.0,
+      "take_profit": 69032.77604064404,
+      "stop_loss": 61207.50414305255,
+      "risk_reward": 1.1319386269786824,
+      "leverage_suggestion": 1.0,
+      "portfolio_allocation_pct": 0.5,
+      "time_horizon": "short",
+      "timeframe": "1d",
+      "rationale": "tech=0.23; sent=-0.22; onchain=0.13; vol=1.00; macro=-0.76; drivers: ParabolicSAR(SELL), PivotPoints(SELL), Fibonacci(SELL); lean-buy (soft threshold)",
+      "indicator_breakdown": [
+        {
+          "name": "SMA",
+          "signal": "HOLD",
+          "value": 64386.626000000004,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'sma_5': 64386.626000000004, 'sma_10': 64821.774, 'sma_20': 64526.28300000001, 'sma_50': 63456.4992, 'sma_100': 69254.7877, 'sma_200': 71639.975}"
+        },
+        {
+          "name": "EMA",
+          "signal": "BUY",
+          "value": 64508.27122418743,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "EMA bullish"
+        },
+        {
+          "name": "WMA",
+          "signal": "BUY",
+          "value": 64647.23038095237,
+          "strength": 0.5,
+          "timeframe": "1d",
+          "detail": "{'wma_20': 64647.23038095237}"
+        },
+        {
+          "name": "HMA",
+          "signal": "HOLD",
+          "value": 64503.82335670995,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'hma_21': 64503.82335670995}"
+        },
+        {
+          "name": "MACD",
+          "signal": "SELL",
+          "value": 211.2718360434519,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "MACD hist negative"
+        },
+        {
+          "name": "Ichimoku",
+          "signal": "HOLD",
+          "value": 64741.18,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "inside / mixed cloud"
+        },
+        {
+          "name": "ParabolicSAR",
+          "signal": "SELL",
+          "value": 66186.80672920929,
+          "strength": 0.7,
+          "timeframe": "1d",
+          "detail": "price below SAR"
+        },
+        {
+          "name": "ADX",
+          "signal": "SELL",
+          "value": 21.369415096924076,
+          "strength": 0.42738830193848154,
+          "timeframe": "1d",
+          "detail": "ADX bearish trend"
+        },
+        {
+          "name": "RSI",
+          "signal": "HOLD",
+          "value": 54.610512360295886,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'rsi_7': 54.610512360295886, 'rsi_14': 52.93397572758599, 'rsi_21': 50.91107234752197}"
+        },
+        {
+          "name": "Stochastic",
+          "signal": "HOLD",
+          "value": 52.9680282624096,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'k': 52.9680282624096, 'd': 38.96114673081996, 'slow_k': 38.96114673081996, 'slow_d': 38.3328749926948}"
+        },
+        {
+          "name": "CCI",
+          "signal": "HOLD",
+          "value": 2.9071217639337172,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'cci': 2.9071217639337172}"
+        },
+        {
+          "name": "MFI",
+          "signal": "HOLD",
+          "value": 46.772318280626706,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mfi': 46.772318280626706}"
+        },
+        {
+          "name": "OBV",
+          "signal": "BUY",
+          "value": -830452.6753440003,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "OBV above EMA"
+        },
+        {
+          "name": "ROC",
+          "signal": "HOLD",
+          "value": 0.06752606879514289,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'roc': 0.06752606879514289}"
+        },
+        {
+          "name": "WilliamsR",
+          "signal": "HOLD",
+          "value": -47.0319717375904,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'williams_r': -47.0319717375904}"
+        },
+        {
+          "name": "UltimateOscillator",
+          "signal": "HOLD",
+          "value": 54.976918117879585,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'uo': 54.976918117879585}"
+        },
+        {
+          "name": "Trix",
+          "signal": "BUY",
+          "value": 0.09254899735979816,
+          "strength": 0.6,
+          "timeframe": "1d",
+          "detail": "{'trix': 0.09254899735979816, 'signal': 0.07558738734858739}"
+        },
+        {
+          "name": "BollingerBands",
+          "signal": "HOLD",
+          "value": 64526.28300000001,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mid': 64526.28300000001, 'upper': 66416.76149477542, 'lower': 62635.80450522461, 'upper_1std': 65471.522247387715, 'lower_1std': 63581.043752612306, 'upper_3std': 67362.00074216312, 'lower_3std': 61690.565257836904, 'bandwidth': 0.05859561117987859}"
+        },
+        {
+          "name": "ATR",
+          "signal": "HOLD",
+          "value": 1545.683172170433,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "ATR 2.38% of price"
+        },
+        {
+          "name": "KeltnerChannels",
+          "signal": "HOLD",
+          "value": 64343.46384198463,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mid': 64343.46384198463, 'upper': 67541.4503784031, 'lower': 61145.47730556617}"
+        },
+        {
+          "name": "DonchianChannels",
+          "signal": "HOLD",
+          "value": 66956.15,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'upper': 66956.15, 'lower': 61824.97, 'mid': 64390.56}"
+        },
+        {
+          "name": "StdDev",
+          "signal": "HOLD",
+          "value": 945.2392473877019,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'std': 945.2392473877019, 'zscore': 0.3720930980934274}"
+        },
+        {
+          "name": "VolumeMA",
+          "signal": "HOLD",
+          "value": 14997.624934500001,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'vol_ma': 14997.624934500001, 'vol_ratio': 0.7394010997361762}"
+        },
+        {
+          "name": "CMF",
+          "signal": "HOLD",
+          "value": 0.017549949313564996,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'cmf': 0.017549949313564996}"
+        },
+        {
+          "name": "ADLine",
+          "signal": "BUY",
+          "value": -143630.50503183002,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'ad': -143630.50503183002, 'ad_ema': -158618.80613141455}"
+        },
+        {
+          "name": "VPT",
+          "signal": "BUY",
+          "value": -27649.7479703329,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'vpt': -27649.7479703329, 'vpt_ema': -27658.917232501157}"
+        },
+        {
+          "name": "VWAP",
+          "signal": "BUY",
+          "value": 64226.882708873294,
+          "strength": 0.5,
+          "timeframe": "1d",
+          "detail": "price above VWAP"
+        },
+        {
+          "name": "Fibonacci",
+          "signal": "SELL",
+          "value": 74092.0,
+          "strength": 0.65,
+          "timeframe": "1d",
+          "detail": "near fib_0.618"
+        },
+        {
+          "name": "PivotPoints",
+          "signal": "SELL",
+          "value": 63998.81,
+          "strength": 0.7,
+          "timeframe": "1d",
+          "detail": "at/above R1"
+        },
+        {
+          "name": "MAEnvelope",
+          "signal": "HOLD",
+          "value": 64526.28300000001,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mid': 64526.28300000001, 'upper': 66139.440075, 'lower': 62913.12592500001}"
+        },
+        {
+          "name": "Trendline",
+          "signal": "BUY",
+          "value": 117.86095872420317,
+          "strength": 0.6,
+          "timeframe": "1d",
+          "detail": "uptrend intact"
+        },
+        {
+          "name": "ChartPatterns",
+          "signal": "HOLD",
+          "value": 0.0,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "none"
+        },
+        {
+          "name": "HeikinAshi",
+          "signal": "HOLD",
+          "value": 1.0,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'ha_bullish': 1.0, 'streak': 1.0}"
+        },
+        {
+          "name": "Renko",
+          "signal": "SELL",
+          "value": -1.0,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'direction': -1.0, 'brick_size': 1521.654285714286}"
+        }
+      ],
+      "created_at": "2026-07-30T13:09:58.417448"
+    },
+    {
+      "symbol": "ETH",
+      "primary_signal": "BUY",
+      "secondary_signal": "LONG",
+      "confidence": 16.556308916057652,
+      "technical_score": 0.3524386221449904,
+      "sentiment_score": -0.22,
+      "onchain_score": 0.2,
+      "volume_score": 0.7441860463385614,
+      "macro_score": -0.7580644875054054,
+      "composite_score": 0.13558760474131176,
+      "entry_price": 1926.11,
+      "take_profit": 2099.520754498354,
+      "stop_loss": 1778.8153481329734,
+      "risk_reward": 1.1773051655324502,
+      "leverage_suggestion": 1.0,
+      "portfolio_allocation_pct": 0.5,
+      "time_horizon": "medium",
+      "timeframe": "1d",
+      "rationale": "tech=0.35; sent=-0.22; onchain=0.20; vol=0.74; macro=-0.76; drivers: Ichimoku(BUY), HMA(BUY), ParabolicSAR(BUY), Fibonacci(SELL); lean-buy (soft threshold)",
+      "indicator_breakdown": [
+        {
+          "name": "SMA",
+          "signal": "HOLD",
+          "value": 1921.262,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'sma_5': 1921.262, 'sma_10': 1908.536, 'sma_20': 1880.631, 'sma_50': 1771.1116, 'sma_100': 1946.5004000000001, 'sma_200': 2117.4470499999998}"
+        },
+        {
+          "name": "EMA",
+          "signal": "BUY",
+          "value": 1906.1590354874736,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "EMA bullish"
+        },
+        {
+          "name": "WMA",
+          "signal": "BUY",
+          "value": 1898.5129047619048,
+          "strength": 0.5,
+          "timeframe": "1d",
+          "detail": "{'wma_20': 1898.5129047619048}"
+        },
+        {
+          "name": "HMA",
+          "signal": "BUY",
+          "value": 1923.0920857142858,
+          "strength": 0.7,
+          "timeframe": "1d",
+          "detail": "HMA rising"
+        },
+        {
+          "name": "MACD",
+          "signal": "SELL",
+          "value": 39.23014159010927,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "MACD hist negative"
+        },
+        {
+          "name": "Ichimoku",
+          "signal": "BUY",
+          "value": 1914.665,
+          "strength": 0.8,
+          "timeframe": "1d",
+          "detail": "price above cloud + TK cross bullish"
+        },
+        {
+          "name": "ParabolicSAR",
+          "signal": "BUY",
+          "value": 1856.88,
+          "strength": 0.7,
+          "timeframe": "1d",
+          "detail": "price above SAR"
+        },
+        {
+          "name": "ADX",
+          "signal": "BUY",
+          "value": 29.015966088054707,
+          "strength": 0.5803193217610941,
+          "timeframe": "1d",
+          "detail": "ADX bullish trend"
+        },
+        {
+          "name": "RSI",
+          "signal": "SELL",
+          "value": 58.418199729553145,
+          "strength": 0.4,
+          "timeframe": "1d",
+          "detail": "mildly bearish RSI"
+        },
+        {
+          "name": "Stochastic",
+          "signal": "HOLD",
+          "value": 69.06111454065879,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'k': 69.06111454065879, 'd': 65.45634809285967, 'slow_k': 65.45634809285967, 'slow_d': 66.59691063201808}"
+        },
+        {
+          "name": "CCI",
+          "signal": "HOLD",
+          "value": 71.20931347488562,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'cci': 71.20931347488562}"
+        },
+        {
+          "name": "MFI",
+          "signal": "HOLD",
+          "value": 54.2803566930368,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mfi': 54.2803566930368}"
+        },
+        {
+          "name": "OBV",
+          "signal": "BUY",
+          "value": -16783879.66709998,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "OBV above EMA"
+        },
+        {
+          "name": "ROC",
+          "signal": "HOLD",
+          "value": 3.409194624747003,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'roc': 3.409194624747003}"
+        },
+        {
+          "name": "WilliamsR",
+          "signal": "HOLD",
+          "value": -30.938885459341204,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'williams_r': -30.938885459341204}"
+        },
+        {
+          "name": "UltimateOscillator",
+          "signal": "HOLD",
+          "value": 57.99455514412214,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'uo': 57.99455514412214}"
+        },
+        {
+          "name": "Trix",
+          "signal": "BUY",
+          "value": 0.3595125263883281,
+          "strength": 0.6,
+          "timeframe": "1d",
+          "detail": "{'trix': 0.3595125263883281, 'signal': 0.32947988126889816}"
+        },
+        {
+          "name": "BollingerBands",
+          "signal": "SELL",
+          "value": 1880.631,
+          "strength": 0.45,
+          "timeframe": "1d",
+          "detail": "{'mid': 1880.631, 'upper': 1978.155690077621, 'lower': 1783.106309922379, 'upper_1std': 1929.3933450388106, 'lower_1std': 1831.8686549611896, 'upper_3std': 2026.9180351164316, 'lower_3std': 1734.3439648835686, 'bandwidth': 0.10371485961639579}"
+        },
+        {
+          "name": "ATR",
+          "signal": "HOLD",
+          "value": 63.09643716782301,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "ATR 3.28% of price"
+        },
+        {
+          "name": "KeltnerChannels",
+          "signal": "HOLD",
+          "value": 1873.504396986895,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mid': 1873.504396986895, 'upper': 2002.7048496861837, 'lower': 1744.3039442876063}"
+        },
+        {
+          "name": "DonchianChannels",
+          "signal": "HOLD",
+          "value": 1981.24,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'upper': 1981.24, 'lower': 1750.2, 'mid': 1865.72}"
+        },
+        {
+          "name": "StdDev",
+          "signal": "HOLD",
+          "value": 48.762345038810516,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'std': 48.762345038810516, 'zscore': 0.9326663835343143}"
+        },
+        {
+          "name": "VolumeMA",
+          "signal": "HOLD",
+          "value": 230268.48000499996,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'vol_ma': 230268.48000499996, 'vol_ratio': 0.42913207442831236}"
+        },
+        {
+          "name": "CMF",
+          "signal": "HOLD",
+          "value": 0.07518792165241502,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'cmf': 0.07518792165241502}"
+        },
+        {
+          "name": "ADLine",
+          "signal": "BUY",
+          "value": -4842826.864549216,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'ad': -4842826.864549216, 'ad_ema': -5095709.570346228}"
+        },
+        {
+          "name": "VPT",
+          "signal": "BUY",
+          "value": -889902.3461126563,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'vpt': -889902.3461126563, 'vpt_ema': -893140.1980201199}"
+        },
+        {
+          "name": "VWAP",
+          "signal": "BUY",
+          "value": 1863.2750306297494,
+          "strength": 0.5,
+          "timeframe": "1d",
+          "detail": "price above VWAP"
+        },
+        {
+          "name": "Fibonacci",
+          "signal": "SELL",
+          "value": 2021.5,
+          "strength": 0.65,
+          "timeframe": "1d",
+          "detail": "near fib_0.236"
+        },
+        {
+          "name": "PivotPoints",
+          "signal": "BUY",
+          "value": 1906.1333333333334,
+          "strength": 0.45,
+          "timeframe": "1d",
+          "detail": "above pivot"
+        },
+        {
+          "name": "MAEnvelope",
+          "signal": "HOLD",
+          "value": 1880.631,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'mid': 1880.631, 'upper': 1927.646775, 'lower': 1833.615225}"
+        },
+        {
+          "name": "Trendline",
+          "signal": "HOLD",
+          "value": 9.200008442776726,
+          "strength": 0.3,
+          "timeframe": "1d",
+          "detail": "{'slope': 9.200008442776726, 'trendline': 1962.0454146341453}"
+        },
+        {
+          "name": "ChartPatterns",
+          "signal": "SELL",
+          "value": 1.0,
+          "strength": 0.6,
+          "timeframe": "1d",
+          "detail": "rising_wedge"
+        },
+        {
+          "name": "HeikinAshi",
+          "signal": "BUY",
+          "value": 1.0,
+          "strength": 0.6000000000000001,
+          "timeframe": "1d",
+          "detail": "2 HA green candles"
+        },
+        {
+          "name": "Renko",
+          "signal": "BUY",
+          "value": 1.0,
+          "strength": 0.55,
+          "timeframe": "1d",
+          "detail": "{'direction': 1.0, 'brick_size': 58.683571428571426}"
+        }
+      ],
+      "created_at": "2026-07-30T13:09:59.226885"
+    }
+  ]
+}

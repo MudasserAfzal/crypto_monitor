@@ -1,0 +1,320 @@
+{
+  "generated_at": "2026-09-21T15:44:10.252046",
+  "market_summary": "Live snapshot 2026-09-21 15:44 UTC. BTC \u20ac74,982 (+6.7% 24h). News bucket: regulation. 7d bounce: 13.7%. Fear & Greed: 70.",
+  "overall_sentiment": 0.4,
+  "fear_greed_index": 70,
+  "top_buys": [],
+  "top_sells": [],
+  "top_shorts": [],
+  "risk_notes": [
+    "Closest past episodes: 2021-05-19 China mining ban and Tesla/Musk FUD; 2026-09-16 Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay. Average 7-day bounce after similar news: +10.0%. Price has already bounced 13.7% off the 7-day low, so the dip itself is used.",
+    "\u20ac100 starter: WAIT_PULLBACK BTC. Stop \u20ac63978.04.",
+    "Short-term sleeve: BTC \u20ac55, SOL \u20ac30, XRP \u20ac15"
+  ],
+  "portfolio_suggestions": {},
+  "news_context": {
+    "dominant_category": "regulation",
+    "headline_mix": {
+      "regulation": 2,
+      "macro": 1,
+      "war": 1,
+      "other": 2
+    },
+    "current_headlines": [
+      {
+        "title": "Senate blocks CLARITY Act 49-50 as Bitcoin slides toward $75,000",
+        "url": null,
+        "category": "regulation",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      },
+      {
+        "title": "Federal Reserve raises rates 25 bps to 3.75%-4.00%, first hike since 2023",
+        "url": null,
+        "category": "macro",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      },
+      {
+        "title": "Hopes of US-Iran war de-escalation and falling oil prices lift risk assets",
+        "url": null,
+        "category": "war",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      },
+      {
+        "title": "SEC issues five-year innovation exemption for tokenized-stock trading",
+        "url": null,
+        "category": "regulation",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      },
+      {
+        "title": "Spot Bitcoin ETFs swing back to inflows after last week's outflows",
+        "url": null,
+        "category": "other",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      },
+      {
+        "title": "Short squeeze liquidates hundreds of millions as Bitcoin reclaims $85,000",
+        "url": null,
+        "category": "other",
+        "sentiment": null,
+        "published_at": null,
+        "source": "manual_wire"
+      }
+    ],
+    "recent_dips": [
+      {
+        "date": "2026-06-18",
+        "symbol": "BTC",
+        "drop_pct": -5.08,
+        "bounce_7d_pct": -5.03,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-06-25",
+        "symbol": "BTC",
+        "drop_pct": -9.85,
+        "bounce_7d_pct": 2.95,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-06-28",
+        "symbol": "BTC",
+        "drop_pct": -9.29,
+        "bounce_7d_pct": 6.84,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-06-30",
+        "symbol": "BTC",
+        "drop_pct": -8.82,
+        "bounce_7d_pct": 8.08,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-08-01",
+        "symbol": "BTC",
+        "drop_pct": -5.61,
+        "bounce_7d_pct": 3.4,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-09-10",
+        "symbol": "BTC",
+        "drop_pct": -5.79,
+        "bounce_7d_pct": -0.2,
+        "matched_event": null,
+        "news_type": null
+      },
+      {
+        "date": "2026-09-13",
+        "symbol": "BTC",
+        "drop_pct": -5.45,
+        "bounce_7d_pct": 5.64,
+        "matched_event": "Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay",
+        "news_type": "regulation"
+      },
+      {
+        "date": "2026-09-15",
+        "symbol": "BTC",
+        "drop_pct": -6.92,
+        "bounce_7d_pct": null,
+        "matched_event": "Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay",
+        "news_type": "regulation"
+      }
+    ],
+    "historical_analogs": [
+      {
+        "date": "2021-05-19",
+        "symbol": "BTC",
+        "drop_pct": -30.0,
+        "headline": "China mining ban and Tesla/Musk FUD",
+        "category": "regulation",
+        "bounce_7d_pct": 8.0,
+        "bounce_30d_pct": -15.0,
+        "lesson": "A real mining/regulatory ban can grind lower for weeks. Do not buy the first red day.",
+        "typical_action": "WAIT"
+      },
+      {
+        "date": "2026-09-16",
+        "symbol": "BTC",
+        "drop_pct": -8.0,
+        "headline": "Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay",
+        "category": "regulation",
+        "bounce_7d_pct": 12.0,
+        "bounce_30d_pct": null,
+        "lesson": "Regulation delay plus a hawkish Fed, with no protocol break, was bought within a week. That is the dip that already happened \u2014 chasing the squeeze is a different trade.",
+        "typical_action": "BUY"
+      }
+    ],
+    "playbook": "Closest past episodes: 2021-05-19 China mining ban and Tesla/Musk FUD; 2026-09-16 Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay. Average 7-day bounce after similar news: +10.0%. Price has already bounced 13.7% off the 7-day low, so the dip itself is used.",
+    "verdict": "WAIT_PULLBACK"
+  },
+  "starter_plan": {
+    "budget_eur": 100.0,
+    "action": "WAIT_PULLBACK",
+    "symbol": "BTC",
+    "venue": "Kraken BTCEUR or Bitvavo BTC-EUR \u2014 SEPA deposit, spot only, no leverage.",
+    "pair": "BTCEUR",
+    "deploy_now_eur": 0.0,
+    "reserve_eur": 100.0,
+    "entry_price_eur": 69254.58,
+    "entry_note": "Do not market-buy the squeeze. Place a limit around \u20ac69,255 (retest of last week's dip). Keep the full \u20ac100 in cash until filled.",
+    "stop_loss_eur": 63978.04,
+    "stop_loss_pct": -7.62,
+    "risk_eur": 7.62,
+    "take_profit_eur": 77565.13,
+    "take_profit_pct": 12.0,
+    "coins_if_filled": 0.00144395,
+    "time_horizon": "2\u201314 days",
+    "why": "A delayed bill or SEC headline is usually noise. A hard country ban or exchange shutdown can grind lower for weeks \u2014 wait for a higher low. Current analog bucket: regulation. Closest past episodes: 2021-05-19 China mining ban and Tesla/Musk FUD; 2026-09-16 Senate blocked CLARITY Act + first Fed hike since 2023; Iran war overlay. Average 7-day bounce after similar news: +10.0%. Price has already bounced 13.7% off the 7-day low, so the dip itself is used.",
+    "invalidation": "Daily close below \u20ac63,978 (BTC last-week low area). If a major exchange or stablecoin breaks, cancel the buy and sit in euro.",
+    "sell_rule": "Take profit near \u20ac77,565 (+12.0%). If you already bought last week's dip, you may sell 30% into this squeeze and hold the rest. Do not short with a \u20ac100 account."
+  },
+  "short_term_book": {
+    "thesis": "More coins do not maximize profit on \u20ac100 \u2014 fees and random wicks do. The edge is buying higher-beta names (SOL, XRP) on the same news dip that BTC already recovered, not chasing a 15\u201323% squeeze. All three legs are limit-on-retest until a fresh dip prints.",
+    "budget_eur": 100.0,
+    "deploy_now_eur": 0.0,
+    "reserve_eur": 100.0,
+    "legs": [
+      {
+        "symbol": "BTC",
+        "role": "core",
+        "rank": 1,
+        "action": "WAIT_PULLBACK",
+        "alloc_eur": 55.0,
+        "pair": "BTCEUR",
+        "venue": "Kraken BTCEUR or Bitvavo BTC-EUR \u2014 SEPA deposit, spot only, no leverage.",
+        "last_eur": 74981.68,
+        "bounce_7d_pct": 13.7,
+        "entry_price_eur": 69254.58,
+        "stop_loss_eur": 63978.04,
+        "stop_loss_pct": -7.62,
+        "take_profit_eur": 77565.13,
+        "take_profit_pct": 12.0,
+        "coins_if_filled": 0.000794,
+        "news_analog": "Anchor. Same news, lowest beta, tightest spread.",
+        "why": "Anchor. Same news, lowest beta, tightest spread. 7d bounce 13.7% \u2014 do not chase; limit on the retest."
+      },
+      {
+        "symbol": "SOL",
+        "role": "short",
+        "rank": 2,
+        "action": "WAIT_PULLBACK",
+        "alloc_eur": 30.0,
+        "pair": "SOLEUR",
+        "venue": "Kraken SOLEUR or Bitvavo SOL-EUR \u2014 slightly wider spread than BTC/ETH.",
+        "last_eur": 102.57,
+        "bounce_7d_pct": 21.5,
+        "entry_price_eur": 88.69,
+        "stop_loss_eur": 81.94,
+        "stop_loss_pct": -7.61,
+        "take_profit_eur": 104.67,
+        "take_profit_pct": 18.02,
+        "coins_if_filled": 0.338257,
+        "news_analog": "SOL was not uniquely hurt by the bill and then attracted ETF money. Highest short-term beta of the liquid names.",
+        "why": "Short-term: ETF inflows this week; not uniquely hurt by CLARITY; historically 1.5\u20132\u00d7 BTC on macro bounces. 7d bounce 21.5% \u2014 do not chase; limit on the retest."
+      },
+      {
+        "symbol": "XRP",
+        "role": "short",
+        "rank": 3,
+        "action": "WAIT_PULLBACK",
+        "alloc_eur": 15.0,
+        "pair": "XRPEUR",
+        "venue": "Kraken XRPEUR or Bitvavo XRP-EUR \u2014 liquid EUR pair, spot only.",
+        "last_eur": 1.3012,
+        "bounce_7d_pct": 16.4,
+        "entry_price_eur": 1.176,
+        "stop_loss_eur": 1.0864,
+        "stop_loss_pct": -7.62,
+        "take_profit_eur": 1.3877,
+        "take_profit_pct": 18.0,
+        "coins_if_filled": 12.755102,
+        "news_analog": "XRP overshoots on US legal headlines in both directions.",
+        "why": "Short-term: dumped 8\u201310% on the vote vs BTC ~3%. Regulation-beta leftover if we get a retest. 7d bounce 16.4% \u2014 do not chase; limit on the retest."
+      }
+    ],
+    "skipped": [
+      "ETH \u2014 spot ETFs lost ~$140m this week while SOL/XRP funds took inflows; ETH is the laggard, not the short-term vehicle.",
+      "DOGE \u2014 +12% today / +22% off the low is meme-beta. Fees and wicks eat a \u20ac100 ticket.",
+      "BNB \u2014 followed BTC, no extra news edge."
+    ]
+  },
+  "live_quotes": [
+    {
+      "symbol": "BTC",
+      "price_eur": 74981.68,
+      "price_usd": 85995.01,
+      "change_24h_pct": 6.652,
+      "action_now": "WAIT",
+      "vs_limit_pct": 8.27,
+      "vs_stop_pct": 17.2,
+      "vs_tp_pct": -3.33
+    },
+    {
+      "symbol": "ETH",
+      "price_eur": 2390.0,
+      "price_usd": 2741.21,
+      "change_24h_pct": 5.558,
+      "action_now": "WATCH",
+      "vs_limit_pct": null,
+      "vs_stop_pct": null,
+      "vs_tp_pct": null
+    },
+    {
+      "symbol": "SOL",
+      "price_eur": 102.57,
+      "price_usd": 117.65,
+      "change_24h_pct": 8.828,
+      "action_now": "WAIT",
+      "vs_limit_pct": 15.65,
+      "vs_stop_pct": 25.18,
+      "vs_tp_pct": -2.01
+    },
+    {
+      "symbol": "XRP",
+      "price_eur": 1.3012,
+      "price_usd": 1.4928,
+      "change_24h_pct": 7.804,
+      "action_now": "WAIT",
+      "vs_limit_pct": 10.65,
+      "vs_stop_pct": 19.77,
+      "vs_tp_pct": -6.23
+    },
+    {
+      "symbol": "BNB",
+      "price_eur": 700.97,
+      "price_usd": 803.99,
+      "change_24h_pct": 6.526,
+      "action_now": "WATCH",
+      "vs_limit_pct": null,
+      "vs_stop_pct": null,
+      "vs_tp_pct": null
+    },
+    {
+      "symbol": "DOGE",
+      "price_eur": 0.08457,
+      "price_usd": 0.0971,
+      "change_24h_pct": 13.624,
+      "action_now": "WATCH",
+      "vs_limit_pct": null,
+      "vs_stop_pct": null,
+      "vs_tp_pct": null
+    }
+  ],
+  "disclaimer": "Educational/informational only \u2014 NOT financial advice. Cryptocurrency trading carries substantial risk of loss. A \u20ac100 starter ticket can go to zero; never trade money you cannot lose."
+}

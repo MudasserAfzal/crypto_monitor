@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-07-30T13:09:52.652858+00:00",
+  "items": [
+    {
+      "symbol": null,
+      "source": "fear_greed",
+      "score": -0.44,
+      "magnitude": 0.44,
+      "label": "Fear",
+      "collected_at": "2026-07-30T13:09:52.117780",
+      "raw": {
+        "value": "28",
+        "value_classification": "Fear",
+        "timestamp": "1785369600",
+        "time_until_update": "39008"
+      }
+    },
+    {
+      "symbol": null,
+      "source": "reddit",
+      "score": 0.0,
+      "magnitude": 0.0,
+      "label": "aggregate",
+      "collected_at": "2026-07-30T13:09:52.404680",
+      "raw": null
+    }
+  ]
+}
